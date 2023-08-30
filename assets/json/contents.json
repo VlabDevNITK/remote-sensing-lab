@@ -1,5 +1,6 @@
 {
-  "labName": "Lab Name",
+  "labName": "Lab Name ",
+  "labTitle": "Lab Title",
   "domainName": "Branch Or Domain Name ",
   "introduction": ["Introduction for the lab goes here"],
 

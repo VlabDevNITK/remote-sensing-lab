@@ -78,3 +78,7 @@ const displayDomainName = function (sectionName, tag) {
 const displayLabName = function (sectionName, tag) {
   displayContent(sectionName, tag);
 };
+
+const displayLabTitle = function (sectionName, tag) {
+  displayContent(sectionName, tag);
+};
