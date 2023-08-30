@@ -14,7 +14,7 @@
       content="Virtual Labs - A MHRD Govt of india Initiative"
     />
 
-    <title>Welcome to Virtual Labs - A MHRD Govt of india Initiative</title>
+    <title>Solve - The Virtual Lab @ NITK Surathkal</title>
     <link rel="shortcut icon" href="images/favicon.ico" />
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
     <link
@@ -38,17 +38,18 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="./assets/js/toggleSidebar.js"></script>
-
+    <script defer src="assets/js/contents.js"></script>
   </head>
   <body
     class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between"
+    onload="displayContent('coarseAlignment','li'); displayDomainName('domainName','name'); displayLabName('labName','name');"
   >
     <!--Google Tag Manager (noscript)-->
     <noscript class="gtm">
       <iframe
         height="0"
         src="https://www.googletagmanager.com/ns.html?id=GTM-W59SWTR"
-        style="display: none; visibility: hidden;"
+        style="display: none; visibility: hidden"
         width="0"
       >
       </iframe>
@@ -63,7 +64,7 @@
         </button>
 
         <div class="d-flex justify-content-center">
-          <a href="https://vlab.co.in" class="navbar-brand">
+          <a href="#" class="navbar-brand">
             <img
               src="./assets/images/vlabs-color-small-moe.jpg"
               alt="vlabs logo"
@@ -78,13 +79,13 @@
         >
           <ul class="navbar-nav ml-auto text-center d-flex flex-md-row">
             <li class="nav-item px-2 m-1">
-              <a href="https://vlab.co.in">HOME</a>
+              <a href="#">HOME</a>
             </li>
             <li class="nav-item px-2 m-1">
-              <a href="https://vlab.co.in/participating-institutes">PARTNERS</a>
+              <a href="#/participating-institutes">PARTNERS</a>
             </li>
             <li class="nav-item px-2 m-1">
-              <a href="https://vlab.co.in/contact-us">CONTACT</a>
+              <a href="#/contact-us">CONTACT</a>
             </li>
           </ul>
         </div> -->
@@ -93,9 +94,13 @@
 
     <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
       <div class="row py-4 px-4 breadcrumbs">
-        <a href="http://vlab.co.in/broad-area-civil-engineering" class="sidebar-a">
-          Civil Engineering
-        </a>
+        <span>
+          <a href="#" class="sidebar-a domainName"></a>
+        </span>
+        &nbsp; / &nbsp;
+        <span>
+          <a href="#" class="sidebar-a labName"></a>
+        </span>
       </div>
       <div class="row flex-grow-1 d-flex flex-nowrap">
         <div
@@ -112,7 +117,7 @@
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">
-                  <a href="https://vlab.co.in" class="navbar-brand">
+                  <a href="#" class="navbar-brand">
                     <img
                       src="./assets/images/vlabs-color-small-moe.jpg"
                       alt="vlabs logo"
@@ -127,40 +132,37 @@
                   aria-label="Close"
                 ></button>
               </div>
-              <div class="modal-body nav-menu popupMenuItems" id="popupMenuItems">  <div class="d-flex nav-menu-body">
-                <!-- <a href="Introduction.html" class="p-2 current-item">	
-                  Introduction	
-                </a> -->
-                <a href="Introduction.html" class="p-2">	
-                  Introduction	
-                </a>
-              </div>
-              <div class="d-flex nav-menu-body">
-                <a href="Objective.html" class="p-2">	
-                  Objective	
-                </a>
-              </div>
-              <div class="d-flex nav-menu-body">
-                <a href="List of experiments.html" class="p-2">	
-                  List of experiments	
-                </a>
-              </div>
-              <div class="d-flex nav-menu-body">
-                <a href="Target Audience.html" class="p-2">	
-                  Target Audience	
-                </a>
-              </div>
-              <div class="d-flex nav-menu-body">
-                <a href="Course Alignment.html" class="p-2">	
-                  Course Alignment	
-                </a>
-              </div>
-              <!-- <div class="d-flex nav-menu-body">
+              <div
+                class="modal-body nav-menu popupMenuItems"
+                id="popupMenuItems"
+              >
+                <div class="d-flex nav-menu-body">
+                  <a href="index.html" class="p-2"> Introduction </a>
+                </div>
+                <div class="d-flex nav-menu-body">
+                  <a href="Objective.html" class="p-2"> Objective </a>
+                </div>
+                <div class="d-flex nav-menu-body">
+                  <a href="List of experiments.html" class="p-2">
+                    List of experiments
+                  </a>
+                </div>
+                <div class="d-flex nav-menu-body">
+                  <a href="Target Audience.html" class="p-2">
+                    Target Audience
+                  </a>
+                </div>
+                <div class="d-flex nav-menu-body">
+                  <a href="Course Alignment.html" class="p-2">
+                    Course Alignment
+                  </a>
+                </div>
+                <!-- <div class="d-flex nav-menu-body">
                 <a href="Feedback.html" class="p-2">	
                   Feedback	
                 </a>
               </div> -->
-            </div>
+              </div>
             </div>
           </div>
         </div>
@@ -170,32 +172,21 @@
         >
           <!--sidebar-->
           <div class="d-flex nav-menu-body">
-            <!-- <a href="Introduction.html" class="p-2 current-item">	
-              Introduction	
-            </a> -->
-            <a href="Introduction.html" class="p-2">	
-              Introduction	
+            <a href="index.html" class="p-2"> Introduction </a>
+          </div>
+          <div class="d-flex nav-menu-body">
+            <a href="Objective.html" class="p-2"> Objective </a>
+          </div>
+          <div class="d-flex nav-menu-body">
+            <a href="List of experiments.html" class="p-2">
+              List of experiments
             </a>
           </div>
           <div class="d-flex nav-menu-body">
-            <a href="Objective.html" class="p-2">	
-              Objective	
-            </a>
+            <a href="Target Audience.html" class="p-2"> Target Audience </a>
           </div>
           <div class="d-flex nav-menu-body">
-            <a href="List of experiments.html" class="p-2">	
-              List of experiments	
-            </a>
-          </div>
-          <div class="d-flex nav-menu-body">
-            <a href="Target Audience.html" class="p-2">	
-              Target Audience	
-            </a>
-          </div>
-          <div class="d-flex nav-menu-body">
-            <a href="Course Alignment.html" class="p-2">	
-              Course Alignment	
-            </a>
+            <a href="Course Alignment.html" class="p-2"> Course Alignment </a>
           </div>
           <!-- <div class="d-flex nav-menu-body">
             <a href="Feedback.html" class="p-2">	
@@ -207,15 +198,19 @@
         <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
           <span class="lab-name"></span
           ><!--labname-->
-          <h2 class="text-center">Manufacturing Lab</h2>
+          <h2 class="text-center">Lab Name</h2>
+          <h2 class="page-name">Course Alignment</h2>
+
           <div>
-            <!--content-->
-            Course ALignement
+            <p>The syllabi of this lab aligns to the following universities:</p>
+            <ol class="coarseAlignment">
+              <!-- Course ALignement contents goes here-->
+            </ol>
           </div>
         </div>
       </div>
     </div>
-    <footer class="text-light  vlabs-footer d-flex flex-column">
+    <footer class="text-light vlabs-footer d-flex flex-column">
       <!-- <div class="row px-5 mx-0">
         <div class="col d-flex flex-column">
           <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3"
@@ -227,7 +222,7 @@
           <a href="http://outreach.vlabs.ac.in/" class="text-light"
             >Outreach Portal</a
           >
-          <a href="https://vlab.co.in/faq" class="text-light"
+          <a href="#/faq" class="text-light"
             >FAQ: Virtual Labs</a
           >
         </div>
@@ -276,7 +271,7 @@
       </div> -->
       <div
         class="m-0 py-2 text-center"
-        style="font-family: 'Open Sans', sans-serif; background: #212121;"
+        style="font-family: 'Open Sans', sans-serif; background: #212121"
       >
         <a
           class="text-primary font-weight-bold"

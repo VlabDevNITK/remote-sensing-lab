@@ -1,0 +1,42 @@
+{
+  "labName": "Lab Name",
+  "domainName": "Branch Or Domain Name ",
+  "introduction": ["Introduction for the lab goes here"],
+
+  "objective": ["Objective of the lab goes here"],
+
+  "experimentList": {
+    "experimentName 1": "experimentName link 1",
+    "experimentName 2": "experimentName link 2",
+    "experimentName 3": "experimentName link 3",
+    "experimentName 4": "experimentName link 4",
+    "experimentName 5": "experimentName link 5",
+    "experimentName 6": "experimentName link 6",
+    "experimentName 7": "experimentName link 7",
+    "experimentName 8": "experimentName link 8",
+    "experimentName 9": "experimentName link 9",
+    "experimentName 10": "experimentName link 10"
+  },
+
+  "targetAudience": {
+    "UG": [
+      "BE / B. Tech in Domain Name / Branch Name 1",
+      "BE / B. Tech in Domain Name / Branch Name 2",
+      "BE / B. Tech in Domain Name / Branch Name 3"
+    ],
+    "PG": [
+      "Mtech / MS in Domain Name / Branch Name 1",
+      "Mtech / MS in Domain Name / Branch Name 2"
+    ]
+  },
+
+  "coarseAlignment": [
+    "Course Name - University name",
+    "Course Name - University name",
+    "Course Name - University name",
+    "Course Name - University name",
+    "Course Name - University name",
+    "Course Name - University name",
+    "Course Name - University name"
+  ]
+}
