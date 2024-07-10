@@ -1,22 +1,22 @@
 {
-  "labName": "Lab Name ",
-  "labTitle": "Lab Title",
-  "domainName": "Branch Or Domain Name ",
-  "introduction": ["Introduction for the lab goes here"],
+  "labName": "Advanced Remote Sensing and GIS Lab",
+  "labTitle": "Advanced Remote Sensing and GIS Lab",
+  "domainName": "Civil Engineering",
+  "introduction": ["Welcome to Advanced Remote Sensing and GIS Lab"],
 
-  "objective": ["Objective of the lab goes here"],
+  "objective": ["Updated soon..."],
 
   "experimentList": {
-    "experimentName 1": "experimentName link 1",
-    "experimentName 2": "experimentName link 2",
-    "experimentName 3": "experimentName link 3",
-    "experimentName 4": "experimentName link 4",
-    "experimentName 5": "experimentName link 5",
-    "experimentName 6": "experimentName link 6",
-    "experimentName 7": "experimentName link 7",
-    "experimentName 8": "experimentName link 8",
-    "experimentName 9": "experimentName link 9",
-    "experimentName 10": "experimentName link 10"
+    "Georeferencing of Toposheet": "https://virtual-labs.github.io/exp-georeferencing-of-toposheet-nitk/",
+    "Cartography of GIS data": "https://virtual-labs.github.io/exp-gis-data-nitk/",
+    "LAI using leaf area index meter": "https://virtual-labs.github.io/exp-leaf-area-index-meter-nitk",
+    "Solar Panel monitoring using datas from UAV with thermal camera ": "https://virtual-labs.github.io/exp-solar-panel-monitoring-nitk/",
+    "Precision agriculture using Multispectral UAV": "https://virtual-labs.github.io/exp-multispectral-uav-nitk/",
+    "Photogrammetry: RGB data capturing using UAV": "https://virtual-labs.github.io/exp-photogrammetry-nitk/",
+    "Volume estimation using aerial LIDAR": "https://virtual-labs.github.io/exp-volume-estimation-nitk/",
+    "Extraction of Topographical features using Digital Elevation Model": "https://virtual-labs.github.io/exp-digital-elevation-model-nitk/",
+    "Georeferencing aerial maps using DGPS (Differential GPS)": "https://virtual-labs.github.io/exp-differential-gps-nitk/",
+    "Digitization of feature classes in GIS through Vector Layers": "https://virtual-labs.github.io/exp-gis-vector-layers-nitk/"
   },
 
   "targetAudience": {
